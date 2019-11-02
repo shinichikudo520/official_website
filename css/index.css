@@ -1,0 +1,131 @@
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	color: white;
+}
+a:hover{
+	cursor: pointer;
+}
+html,
+body {
+    font-size: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: #FFFFFF;
+}
+ul li{
+	list-style: none;
+}
+/* 容器 */
+#main{
+	width: 100%;
+}
+/* 头部 */
+.header{
+	position: relative;
+	background-color: #222222;
+}
+/* 头部图片 */
+.header img{
+	width: 2.75rem;
+	height: 2.75rem;
+	position:absolute;
+	top:50%;
+	margin-top:-1.375rem;
+}
+/* 导航条 */
+.header .navbar{
+	border-radius: 0;
+}
+/* 导航条品牌图标 */
+.header .navbar-brand{
+	padding: 0;
+}
+/* .header .brand{
+	width: 100%;
+	height: 100%;
+} */
+/* 搜索输入框 */
+.header .form-group{
+	position: relative;
+}
+.header .form-control{
+	background-color: #3e424b;
+	border:none
+}
+/* 搜索图标 */
+.header .glyphicon-search{
+	position: absolute;
+	right:9%;
+	top: 28%;
+	color: #85868a;
+}
+/* 导航条登录按钮 */
+.header .btn-default{
+	background-color:#3d6eff;
+	color: white;
+	border:none;
+	border-radius: 1.125rem;
+	margin-right: 4%;
+}
+/* 导航条用户头像 */
+.header .user_head_portrait{
+	display: none;
+	right: 4%;
+}
+/* footer */
+.footer{
+	background-color: #222222;
+	color: white;
+	padding-top: 1.25rem;
+	font-size: 0.625rem;
+}
+/* 客服热线 */
+.footer .footer-grid-header{
+	margin-top: 1.25rem
+}
+/* 二维码图标 */
+.footer .qrcode{
+	width: 1.25rem;
+	height: 1.25rem;
+	vertical-align: middle;
+	margin-right: 0.3125rem;
+}
+.footer ul li{
+	height: 2.5rem;
+	line-height: 2.5rem;
+}
+/* 第二列左浮 */
+.footer .footer-grid-info ul{
+	padding-left: 0;
+	overflow: hidden;
+}
+.footer .footer-grid-info ul li{
+	padding:0 0.75rem;
+	float: left;
+}
+/* 电话 */
+.footer .phone{
+	font-size: 1.4375rem
+}
+/* 接听时间 */
+.footer .call_time{
+	font-size: 0.1875rem;
+	color: #52586e;
+}
+/* 隔断线 */
+.footer hr{
+	border-top-color: #323953;
+}
+/* 版权所有 */
+.footer .copyright{
+	text-align: center;
+	color: #6e7687;
+}
+
+
